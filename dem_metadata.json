@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Highlands DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Highlands Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 1924,
+  "height": 2162,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 74.39,
+  "meanMeters": 17.166,
+  "stdDevMeters": 21.739,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 244.06167978905,
+  "webMercatorBounds": [
+    -8238205.16118,
+    4922620.637077,
+    -8235272.98518,
+    4925915.525077
+  ],
+  "leafletBounds": [
+    [
+      40.3889225,
+      -74.0050561
+    ],
+    [
+      40.4114573,
+      -73.9787221
+    ]
+  ],
+  "files": {
+    "demCog": "highlands_dem_5ft_cog.tif",
+    "hillshadeCog": "highlands_hillshade_cog.tif",
+    "hillshadePng": "highlands_hillshade.png",
+    "boundaryGeojson": "highlands_boundary.geojson"
+  }
+}
