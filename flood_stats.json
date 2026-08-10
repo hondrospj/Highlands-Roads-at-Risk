@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-08-10T20:24:40.463Z",
+  "generatedAt": "2026-08-10T22:43:30.407Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -11,11 +11,11 @@
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-08-09",
-    "days": 6018,
+    "endDate": "2026-08-10",
+    "days": 6019,
     "years": 16.48,
     "classificationCounts": {
-      "none": 5326,
+      "none": 5327,
       "minor": 618,
       "moderate": 68,
       "major": 6
@@ -25,7 +25,7 @@
     "highTideCount": 11635,
     "drawsPerYear": 706,
     "predictionRows": 300,
-    "trendFtPerYear": 0.00326925,
+    "trendFtPerYear": 0.00321088,
     "trendSource": {
       "station": "01407600",
       "source": "Sea Bright observed hourly monthly means",
@@ -34,7 +34,7 @@
       "monthlyPoints": 224,
       "firstMonth": "2007-10",
       "lastMonth": "2026-08",
-      "rawSlopeFtPerYear": 0.00326925
+      "rawSlopeFtPerYear": 0.00321088
     }
   },
   "datum": {
@@ -1739,6 +1739,7 @@
     1.98,
     1.98,
     1.98,
+    1.99,
     1.99,
     1.99,
     1.99,
@@ -42263,6 +42264,12 @@
       "date": "2026-08-09",
       "peakNavd88Ft": 2.76,
       "peakMllwFt": 4.89,
+      "classification": "none"
+    },
+    {
+      "date": "2026-08-10",
+      "peakNavd88Ft": 1.99,
+      "peakMllwFt": 4.12,
       "classification": "none"
     }
   ]
