@@ -57,6 +57,33 @@
   "topEvents": [
     {
       "rank": 1,
+      "date": "1821-09-03",
+      "displayDate": "Sep 3, 1821",
+      "heightNavd88Ft": 12.0,
+      "heightMllwFt": 14.13,
+      "classification": "major",
+      "source": "legacy historical archive"
+    },
+    {
+      "rank": 2,
+      "date": "1788-08-19",
+      "displayDate": "Aug 19, 1788",
+      "heightNavd88Ft": 10.0,
+      "heightMllwFt": 12.13,
+      "classification": "major",
+      "source": "legacy historical archive"
+    },
+    {
+      "rank": 3,
+      "date": "1992-12-12",
+      "displayDate": "Dec 12, 1992",
+      "heightNavd88Ft": 7.25,
+      "heightMllwFt": 9.38,
+      "classification": "major",
+      "source": "legacy historical archive"
+    },
+    {
+      "rank": 4,
       "date": "2011-08-28",
       "displayDate": "Aug 28, 2011",
       "heightNavd88Ft": 6.29,
@@ -64,7 +91,7 @@
       "classification": "major"
     },
     {
-      "rank": 2,
+      "rank": 5,
       "date": "2010-03-13",
       "displayDate": "Mar 13, 2010",
       "heightNavd88Ft": 5.32,
@@ -72,7 +99,7 @@
       "classification": "major"
     },
     {
-      "rank": 3,
+      "rank": 6,
       "date": "2024-01-13",
       "displayDate": "Jan 13, 2024",
       "heightNavd88Ft": 5.21,
@@ -80,7 +107,7 @@
       "classification": "major"
     },
     {
-      "rank": 4,
+      "rank": 7,
       "date": "2018-10-27",
       "displayDate": "Oct 27, 2018",
       "heightNavd88Ft": 5.17,
@@ -88,7 +115,7 @@
       "classification": "major"
     },
     {
-      "rank": 5,
+      "rank": 8,
       "date": "2022-12-23",
       "displayDate": "Dec 23, 2022",
       "heightNavd88Ft": 5.17,
@@ -96,7 +123,7 @@
       "classification": "major"
     },
     {
-      "rank": 6,
+      "rank": 9,
       "date": "2021-02-02",
       "displayDate": "Feb 2, 2021",
       "heightNavd88Ft": 5.13,
@@ -104,7 +131,7 @@
       "classification": "major"
     },
     {
-      "rank": 7,
+      "rank": 10,
       "date": "2017-01-24",
       "displayDate": "Jan 24, 2017",
       "heightNavd88Ft": 5.05,
@@ -112,7 +139,7 @@
       "classification": "moderate"
     },
     {
-      "rank": 8,
+      "rank": 11,
       "date": "2021-02-01",
       "displayDate": "Feb 1, 2021",
       "heightNavd88Ft": 5.04,
@@ -120,7 +147,7 @@
       "classification": "moderate"
     },
     {
-      "rank": 9,
+      "rank": 12,
       "date": "2018-03-03",
       "displayDate": "Mar 3, 2018",
       "heightNavd88Ft": 4.87,
@@ -128,7 +155,7 @@
       "classification": "moderate"
     },
     {
-      "rank": 10,
+      "rank": 13,
       "date": "2016-01-23",
       "displayDate": "Jan 23, 2016",
       "heightNavd88Ft": 4.85,
