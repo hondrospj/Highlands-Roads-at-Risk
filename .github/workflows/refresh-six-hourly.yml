@@ -1,0 +1,53 @@
+name: Refresh Highlands roads every six hours
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "25 2,8,14,20 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: highlands-roads-data-updates-v2
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            .shorelysafe/
+            tools/
+            tests/
+            data/
+            flood_stats.json
+      - name: Verify incremental observation refresh
+        run: python3 -m unittest discover -s tests -p 'test_refresh*.py'
+      - name: Refresh newest available source data
+        env:
+          PETSS_STID: "8531680"
+          PETSS_DATUM: "MLLW"
+        run: |
+          set -euo pipefail
+          python3 tools/refresh_observed_history.py
+          python3 tools/refresh_contract.py --profile roads
+      - name: Commit valid generated inputs
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add flood_stats.json data/refresh_status.json
+          git diff --cached --quiet || git commit -m "Refresh Highlands roads source data"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main
+            if git push; then exit 0; fi
+            if [ "$attempt" -eq 5 ]; then exit 1; fi
+            sleep $((attempt * 2))
+          done
+  publish-fresh-data:
+    needs: refresh
+    uses: ./.github/workflows/publish-cupajoe.yml
+    secrets: inherit
