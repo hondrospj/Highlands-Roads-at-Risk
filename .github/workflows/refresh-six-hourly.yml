@@ -1,8 +1,8 @@
-name: Refresh Highlands roads every six hours
+name: Refresh Highlands roads daily
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 2,8,14,20 * * *"
+    - cron: "25 14 * * *"
 permissions:
   contents: write
 concurrency:
