@@ -1,16 +1,11 @@
 name: Publish ShorelySafe to Cup A Joe
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
   workflow_call:
     secrets:
       SHORELYSAFE_PUBLISH_TOKEN:
         required: true
-  workflow_run:
-    workflows: ["Deploy static Pages"]
-    types: [completed]
-    branches: ["main"]
+
 permissions:
   contents: read
 concurrency:
