@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-11-04T14:27:41.096238Z",
+  "generatedAt": "2026-11-05T14:28:02.691403Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -11,11 +11,11 @@
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-11-04",
-    "days": 6105,
-    "years": 16.71,
+    "endDate": "2026-11-05",
+    "days": 6106,
+    "years": 16.72,
     "classificationCounts": {
-      "none": 5387,
+      "none": 5388,
       "minor": 640,
       "moderate": 70,
       "major": 8
@@ -2426,7 +2426,6 @@
     2.15,
     2.15,
     2.15,
-    2.15,
     2.16,
     2.16,
     2.16,
@@ -3313,6 +3312,7 @@
     2.36,
     2.36,
     2.36,
+    2.36,
     2.37,
     2.37,
     2.37,
@@ -4005,6 +4005,7 @@
     2.53,
     2.53,
     2.53,
+    2.54,
     2.54,
     2.54,
     2.54,
@@ -42897,14 +42898,20 @@
     },
     {
       "date": "2026-11-04",
-      "peakNavd88Ft": 2.15,
-      "peakMllwFt": 4.28,
+      "peakNavd88Ft": 2.36,
+      "peakMllwFt": 4.49,
+      "classification": "none"
+    },
+    {
+      "date": "2026-11-05",
+      "peakNavd88Ft": 2.54,
+      "peakMllwFt": 4.67,
       "classification": "none"
     }
   ],
   "sourceFreshness": {
-    "checkedAtUtc": "2026-11-04T14:27:41.096238Z",
-    "latestObservationUtc": "2026-11-04T14:12:00Z",
+    "checkedAtUtc": "2026-11-05T14:28:02.691403Z",
+    "latestObservationUtc": "2026-11-05T14:12:00Z",
     "source": "USGS NWIS instantaneous values",
     "usgsGaugeId": "01407600",
     "parameterCd": "72279",
@@ -42912,9 +42919,9 @@
     "units": "ft",
     "responseDigests": [
       {
-        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-04T05:00:00Z&endDT=2026-11-04T14:27:41.096238Z&siteStatus=all",
-        "sha256": "77970df12aec860515e89fb1d6430270dc04ff3ee2156bde81f8a1030e2a9131",
-        "bytes": 9953
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-04T05:00:00Z&endDT=2026-11-05T14:28:02.691403Z&siteStatus=all",
+        "sha256": "85cdb0db3c8901073132d69bcf69babb45f2a66eaf136c13507fd915dd2dc5d4",
+        "bytes": 29002
       }
     ],
     "incrementalFromLocalDate": "2026-11-04"
