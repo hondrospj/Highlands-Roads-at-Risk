@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-11-05T14:28:02.691403Z",
+  "generatedAt": "2026-11-06T14:28:00.368604Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -11,11 +11,11 @@
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-11-05",
-    "days": 6106,
+    "endDate": "2026-11-06",
+    "days": 6107,
     "years": 16.72,
     "classificationCounts": {
-      "none": 5388,
+      "none": 5389,
       "minor": 640,
       "moderate": 70,
       "major": 8
@@ -4937,6 +4937,7 @@
     2.8,
     2.8,
     2.8,
+    2.81,
     2.81,
     2.81,
     2.81,
@@ -42907,11 +42908,17 @@
       "peakNavd88Ft": 2.54,
       "peakMllwFt": 4.67,
       "classification": "none"
+    },
+    {
+      "date": "2026-11-06",
+      "peakNavd88Ft": 2.81,
+      "peakMllwFt": 4.94,
+      "classification": "none"
     }
   ],
   "sourceFreshness": {
-    "checkedAtUtc": "2026-11-05T14:28:02.691403Z",
-    "latestObservationUtc": "2026-11-05T14:12:00Z",
+    "checkedAtUtc": "2026-11-06T14:28:00.368604Z",
+    "latestObservationUtc": "2026-11-06T14:12:00Z",
     "source": "USGS NWIS instantaneous values",
     "usgsGaugeId": "01407600",
     "parameterCd": "72279",
@@ -42919,11 +42926,11 @@
     "units": "ft",
     "responseDigests": [
       {
-        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-04T05:00:00Z&endDT=2026-11-05T14:28:02.691403Z&siteStatus=all",
-        "sha256": "85cdb0db3c8901073132d69bcf69babb45f2a66eaf136c13507fd915dd2dc5d4",
-        "bytes": 29002
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-05T05:00:00Z&endDT=2026-11-06T14:28:00.368604Z&siteStatus=all",
+        "sha256": "5a76325d463d28958c2826ffc1b3dab78b186a5b03b09e45d001418ee990226d",
+        "bytes": 29006
       }
     ],
-    "incrementalFromLocalDate": "2026-11-04"
+    "incrementalFromLocalDate": "2026-11-05"
   }
 }
