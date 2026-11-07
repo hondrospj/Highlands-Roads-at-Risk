@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-11-06T14:28:00.368604Z",
+  "generatedAt": "2026-11-07T14:10:19.670761Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -11,12 +11,12 @@
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-11-06",
-    "days": 6107,
+    "endDate": "2026-11-07",
+    "days": 6108,
     "years": 16.72,
     "classificationCounts": {
       "none": 5389,
-      "minor": 640,
+      "minor": 641,
       "moderate": 70,
       "major": 8
     }
@@ -5579,6 +5579,7 @@
     3.08,
     3.08,
     3.08,
+    3.09,
     3.09,
     3.09,
     3.09,
@@ -42914,11 +42915,17 @@
       "peakNavd88Ft": 2.81,
       "peakMllwFt": 4.94,
       "classification": "none"
+    },
+    {
+      "date": "2026-11-07",
+      "peakNavd88Ft": 3.09,
+      "peakMllwFt": 5.22,
+      "classification": "minor"
     }
   ],
   "sourceFreshness": {
-    "checkedAtUtc": "2026-11-06T14:28:00.368604Z",
-    "latestObservationUtc": "2026-11-06T14:12:00Z",
+    "checkedAtUtc": "2026-11-07T14:10:19.670761Z",
+    "latestObservationUtc": "2026-11-07T14:00:00Z",
     "source": "USGS NWIS instantaneous values",
     "usgsGaugeId": "01407600",
     "parameterCd": "72279",
@@ -42926,11 +42933,11 @@
     "units": "ft",
     "responseDigests": [
       {
-        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-05T05:00:00Z&endDT=2026-11-06T14:28:00.368604Z&siteStatus=all",
-        "sha256": "5a76325d463d28958c2826ffc1b3dab78b186a5b03b09e45d001418ee990226d",
-        "bytes": 29006
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-06T05:00:00Z&endDT=2026-11-07T14:10:19.670761Z&siteStatus=all",
+        "sha256": "6c7202e9a97feac07087d6f7e01cc3942b68e756a1831e456b4231e9c4d6f686",
+        "bytes": 28849
       }
     ],
-    "incrementalFromLocalDate": "2026-11-05"
+    "incrementalFromLocalDate": "2026-11-06"
   }
 }
