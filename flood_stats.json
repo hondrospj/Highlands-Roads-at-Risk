@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-11-21T20:26:48.601906Z",
+  "generatedAt": "2026-11-22T02:29:51.804146Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -43022,8 +43022,8 @@
     }
   ],
   "sourceFreshness": {
-    "checkedAtUtc": "2026-11-21T20:26:48.601906Z",
-    "latestObservationUtc": "2026-11-21T20:12:00Z",
+    "checkedAtUtc": "2026-11-22T02:29:51.804146Z",
+    "latestObservationUtc": "2026-11-22T02:12:00Z",
     "source": "USGS NWIS instantaneous values",
     "usgsGaugeId": "01407600",
     "parameterCd": "72279",
@@ -43031,9 +43031,9 @@
     "units": "ft",
     "responseDigests": [
       {
-        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-21T05:00:00Z&endDT=2026-11-21T20:26:48.601906Z&siteStatus=all",
-        "sha256": "6c7cbdc9726e21ee35fe0d646a64779478c6ce75707a828ade9b6e48ebeefb47",
-        "bytes": 14750
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-21T05:00:00Z&endDT=2026-11-22T02:29:51.804146Z&siteStatus=all",
+        "sha256": "d95ca845bacfdaeb30f22d43f9ba8836f0e7647d35b37b57ff1c8ce77adf56bf",
+        "bytes": 19492
       }
     ],
     "incrementalFromLocalDate": "2026-11-21"
