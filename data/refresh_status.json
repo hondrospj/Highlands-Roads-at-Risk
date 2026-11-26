@@ -1,15 +1,15 @@
 {
   "profile": "roads",
-  "checkedAtUtc": "2026-11-26T08:31:06.139789Z",
+  "checkedAtUtc": "2026-11-26T14:28:19.218514Z",
   "station": "01407600",
   "datum": "NAVD88",
-  "latestObservationUtc": "2026-11-26T08:12:00Z",
+  "latestObservationUtc": "2026-11-26T14:12:00Z",
   "archiveEndDate": "2026-11-26",
   "latestUpstreamCycleUtc": null,
   "files": {
     "flood_stats.json": {
-      "sha256": "eff0acc72fd31fd17251c174a21c39a8a92c10eda097836325fa63a5e8282728",
-      "bytes": 836526
+      "sha256": "1de2161f59bca895e571a0836f2949325f9972a90b26a75f71923df427f33f92",
+      "bytes": 836529
     }
   }
 }
