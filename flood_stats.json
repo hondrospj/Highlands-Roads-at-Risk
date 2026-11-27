@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-11-27T02:30:12.606122Z",
+  "generatedAt": "2026-11-27T08:30:34.835177Z",
   "gaugeName": "Sea Bright",
   "station": {
     "usgsGaugeId": "01407600",
@@ -11,12 +11,12 @@
   },
   "archive": {
     "startDate": "2007-10-01",
-    "endDate": "2026-11-26",
-    "days": 6127,
-    "years": 16.77,
+    "endDate": "2026-11-27",
+    "days": 6128,
+    "years": 16.78,
     "classificationCounts": {
       "none": 5403,
-      "minor": 644,
+      "minor": 645,
       "moderate": 71,
       "major": 9
     }
@@ -6191,6 +6191,7 @@
     3.96,
     3.97,
     3.97,
+    3.97,
     3.98,
     3.98,
     3.98,
@@ -6288,7 +6289,7 @@
     5.21,
     5.32,
     5.4,
-    5.55,
+    5.73,
     5.87,
     6.29
   ],
@@ -43051,14 +43052,20 @@
     },
     {
       "date": "2026-11-26",
-      "peakNavd88Ft": 5.55,
-      "peakMllwFt": 7.68,
+      "peakNavd88Ft": 5.73,
+      "peakMllwFt": 7.86,
       "classification": "major"
+    },
+    {
+      "date": "2026-11-27",
+      "peakNavd88Ft": 3.97,
+      "peakMllwFt": 6.1,
+      "classification": "minor"
     }
   ],
   "sourceFreshness": {
-    "checkedAtUtc": "2026-11-27T02:30:12.606122Z",
-    "latestObservationUtc": "2026-11-27T02:18:00Z",
+    "checkedAtUtc": "2026-11-27T08:30:34.835177Z",
+    "latestObservationUtc": "2026-11-27T08:18:00Z",
     "source": "USGS NWIS instantaneous values",
     "usgsGaugeId": "01407600",
     "parameterCd": "72279",
@@ -43066,9 +43073,9 @@
     "units": "ft",
     "responseDigests": [
       {
-        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-26T05:00:00Z&endDT=2026-11-27T02:30:12.606122Z&siteStatus=all",
-        "sha256": "25711d5516a630477ea46434f1a732c15f3f769dcb4f956e8f4aa604de49126f",
-        "bytes": 19535
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01407600&parameterCd=72279&startDT=2026-11-26T05:00:00Z&endDT=2026-11-27T08:30:34.835177Z&siteStatus=all",
+        "sha256": "54ed6092a97f5ee0d981872ea04d92289e8791413ba307aea2dcc76cb32cb359",
+        "bytes": 24275
       }
     ],
     "incrementalFromLocalDate": "2026-11-26"
